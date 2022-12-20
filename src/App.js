@@ -8,6 +8,7 @@ import Alogin from './Components/Admin/Alogin';
 import AddBlog from './Components/AddBlog';
 import User from './Components/User';
 import Userlist from './Components/Userlist';
+import Bloglist from './Components/Bloglist';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/add" element={<AddBlog/>}/>
       <Route path="/user" element={<User/>}/>
       <Route path="/userl" element={<Userlist/>}/>
+      <Route path="/blogl" element={<Bloglist/>}/>
 
 
     </Routes>

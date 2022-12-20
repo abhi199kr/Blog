@@ -10,6 +10,7 @@ const UserHeader = () => {
     <Link to="/"><button className='btn btn-info'>Blogger</button></Link>
      </div>
      <div className='d-flex gap-2  justify-content-end'>
+     <Link to="/blogl"> <button className='btn btn-info'>Blog</button></Link>
         <Link to="/signup"> <button className='btn btn-info'>USER</button></Link>
        
      </div>
